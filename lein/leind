@@ -1,0 +1,1 @@
+docker run -i --net host -v ~/.m2:/root/.m2 -v $(pwd):/app -w /app firthh/lein $@
