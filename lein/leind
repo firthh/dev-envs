@@ -1,1 +1,1 @@
-docker run -it --net host -v ~/.m2:/root/.m2 -v $(pwd):/app -w /app firthh/lein $@
+docker run --rm -it --net host -v ~/.m2:/root/.m2 -v $(pwd):/app -w /app firthh/lein $@
