@@ -1,5 +1,10 @@
-# dev-envs
-docker files and scripts for containerised development environments
+# dev-envs (Development Environments)
+Scripts for containerised development environments.
+
+# Rationale
+
+- I don't want to install anything (besides docker) onto my host development machine
+- I want to hide for the most part that each tool is running inside a container. Wherever possible each tool should behave exactly as expected if it was running on the host machine.
 
 # Install
 
