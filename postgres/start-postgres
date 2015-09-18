@@ -1,1 +1,13 @@
-docker run --name dev-postgres -e POSTGRES_PASSWORD=password --net host -d postgres
+set -e
+
+value=$(docker ps -f name=dev-postgres -q)
+
+if [ -n $value ]
+then
+  echo "Container found"
+  docker start dev-postgres
+else
+  echo "Container not found"
+  docker run --name dev-postgres -e POSTGRES_PASSWORD=password --net host -d postgres
+fi
+
