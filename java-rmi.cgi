@@ -1,0 +1,1 @@
+./javad java-rmi.cgi $@
