@@ -1,1 +1,1 @@
-./javad schemagen $@
+javad schemagen $@

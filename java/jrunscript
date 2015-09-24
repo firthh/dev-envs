@@ -1,1 +1,1 @@
-./javad jrunscript $@
+javad jrunscript $@

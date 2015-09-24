@@ -1,1 +1,1 @@
-./javad rmiregistry $@
+javad rmiregistry $@

@@ -1,1 +1,1 @@
-./javad javapackager $@
+javad javapackager $@

@@ -1,1 +1,1 @@
-./javad jdeps $@
+javad jdeps $@

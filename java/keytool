@@ -1,1 +1,1 @@
-./javad keytool $@
+javad keytool $@

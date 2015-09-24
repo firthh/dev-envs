@@ -1,1 +1,1 @@
-./javad javadoc $@
+javad javadoc $@

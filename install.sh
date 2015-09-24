@@ -24,5 +24,5 @@ rm -rf ~/dev-envs-temp
 echo "------------------------------------------------------"
 echo "                Install finished"
 echo " "
-echo "Please add the following line to ~/.bashrc (or .zshrc)"
+echo "Please add the following lines to ~/.bashrc (or .zshrc)"
 echo "export PATH=\"\$PATH:$(cd ~ && pwd)/dev-envs/\""

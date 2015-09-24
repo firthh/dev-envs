@@ -1,1 +1,1 @@
-./javad wsgen $@
+javad wsgen $@

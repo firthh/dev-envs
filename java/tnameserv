@@ -1,1 +1,1 @@
-./javad tnameserv $@
+javad tnameserv $@

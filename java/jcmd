@@ -1,1 +1,1 @@
-./javad jcmd $@
+javad jcmd $@

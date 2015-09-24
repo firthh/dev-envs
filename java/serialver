@@ -1,1 +1,1 @@
-./javad serialver $@
+javad serialver $@

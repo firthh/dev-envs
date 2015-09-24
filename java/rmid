@@ -1,1 +1,1 @@
-./javad rmid $@
+javad rmid $@

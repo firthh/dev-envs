@@ -1,1 +1,1 @@
-./javad native2ascii $@
+javad native2ascii $@

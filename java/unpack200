@@ -1,1 +1,1 @@
-./javad unpack200 $@
+javad unpack200 $@
