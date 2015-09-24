@@ -1,0 +1,8 @@
+set -e
+
+if [ "$RUBY_DOCKER_VERSION" == "" ]
+   then
+    export RUBY_DOCKER_VERSION=2.2
+fi
+
+docker run -it --rm --name ruby-env -v "$PWD":/usr/src/myapp -w /usr/src/myapp ruby:$RUBY_DOCKER_VERSION $@
