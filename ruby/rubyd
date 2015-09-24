@@ -5,4 +5,4 @@ if [ "$RUBY_DOCKER_VERSION" == "" ]
     export RUBY_DOCKER_VERSION=2.2
 fi
 
-docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp ruby:$RUBY_DOCKER_VERSION $@
+docker run -it --net host --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp ruby:$RUBY_DOCKER_VERSION $@
