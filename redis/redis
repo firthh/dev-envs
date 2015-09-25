@@ -1,0 +1,1 @@
+docker run -it --rm redis sh -c 'exec redis-cli -h 127.0.0.1'

@@ -1,0 +1,13 @@
+set -e
+
+value="$(docker ps -f name=dev-redis -q)"
+
+if [ "$value" != "" ]
+then
+  echo "Container found"
+  docker start dev-redis
+else
+  echo "Container not found"
+  docker run --name dev-redis --net host -d redis
+fi
+
