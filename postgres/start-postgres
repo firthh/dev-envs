@@ -2,7 +2,7 @@ set -e
 
 value=$(docker ps -f name=dev-postgres -q)
 
-if [ -n $value ]
+if [ "$value" != "" ]
 then
   echo "Container found"
   docker start dev-postgres
