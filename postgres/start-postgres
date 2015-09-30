@@ -1,6 +1,6 @@
 set -e
 
-value=$(docker ps -f name=dev-postgres -q)
+value=$(docker ps -af name=dev-postgres -q)
 
 if [ "$value" != "" ]
 then

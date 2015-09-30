@@ -1,6 +1,6 @@
 set -e
 
-value="$(docker ps -f name=dev-redis -q)"
+value=$(docker ps -af name=dev-redis -q)
 
 if [ "$value" != "" ]
 then
