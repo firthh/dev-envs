@@ -1,1 +1,1 @@
-./rubyd gem $@
+rubyd gem $@

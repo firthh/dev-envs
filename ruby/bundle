@@ -1,1 +1,1 @@
-./rubyd bundle
+rubyd bundle $@ --path /root/.gem
