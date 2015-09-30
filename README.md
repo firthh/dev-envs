@@ -15,7 +15,7 @@ Scripts for containerised development environments.
 ## In Progress
 
 - Ruby (I think IRB, bundle, and ruby commands are working. gem works but won't do global install)
-- Java (Very experimental, everything from java/bin exists as a docker command but hasn't been tested)
+- Java (Very experimental, everything from $JAVA_HOME/bin exists as a docker command but hasn't been tested)
 
 # Install
 
