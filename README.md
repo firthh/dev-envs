@@ -8,8 +8,9 @@ Scripts for containerised development environments.
 
 # Working
 
-- Leiningen (needs more testing)
-- Postgres  (needs more testing)
+- Leiningen
+- Postgres
+- Redis
 
 ## In Progress
 
